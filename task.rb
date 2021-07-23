@@ -8,10 +8,13 @@ class String
         package << [array]
       end
     end
-
     package.map { |i| [i.size, i.last] }.join
   end
-end
+  end
+
 
 puts res = '1'
 6.times { puts res = res.row } #ещё один класный строковый итератор
+
+
+
